@@ -1,0 +1,48 @@
+[[TempestRemap]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "900669944e7fd815ceaca61cf24b0bd4f2ced129"
+libc = "glibc"
+os = "linux"
+
+    [[TempestRemap.download]]
+    sha256 = "110ebf9fcb5f3bb8e7326b66b12fc92c7ec61162a923af4d84f42a8afad87ed2"
+    url = "https://github.com/JuliaBinaryWrappers/TempestRemap_jll.jl/releases/download/TempestRemap-v2.1.1+0/TempestRemap.v2.1.1.aarch64-linux-gnu-cxx03.tar.gz"
+[[TempestRemap]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0a5934c22d7ed43e53e54329c230815231b20500"
+libc = "glibc"
+os = "linux"
+
+    [[TempestRemap.download]]
+    sha256 = "cecc111b41a3f9cc70b1a53aa53e8f07626cffb416c15d42fbd474626c8d422c"
+    url = "https://github.com/JuliaBinaryWrappers/TempestRemap_jll.jl/releases/download/TempestRemap-v2.1.1+0/TempestRemap.v2.1.1.aarch64-linux-gnu-cxx11.tar.gz"
+[[TempestRemap]]
+arch = "x86_64"
+git-tree-sha1 = "109fc7612d5be9bd977d24a4ef0c4a816f440253"
+os = "macos"
+
+    [[TempestRemap.download]]
+    sha256 = "79fda217d4d074fcc7c982d04df57e3a9b6efc205c0b853a713edccdfe75c4f4"
+    url = "https://github.com/JuliaBinaryWrappers/TempestRemap_jll.jl/releases/download/TempestRemap-v2.1.1+0/TempestRemap.v2.1.1.x86_64-apple-darwin.tar.gz"
+[[TempestRemap]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "42aac993014f9f940852af63c0e599af28bc79b9"
+libc = "glibc"
+os = "linux"
+
+    [[TempestRemap.download]]
+    sha256 = "43bf4d98db1534503a436b68873213703f0cc78a23c4747dec05ab1dbe16afc3"
+    url = "https://github.com/JuliaBinaryWrappers/TempestRemap_jll.jl/releases/download/TempestRemap-v2.1.1+0/TempestRemap.v2.1.1.x86_64-linux-gnu-cxx03.tar.gz"
+[[TempestRemap]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "77990086a82855e45f90e47298d80ccc2b090065"
+libc = "glibc"
+os = "linux"
+
+    [[TempestRemap.download]]
+    sha256 = "81a2562e146aceebbd853766ba48de6b004123b9fc0b60a34547423884004a19"
+    url = "https://github.com/JuliaBinaryWrappers/TempestRemap_jll.jl/releases/download/TempestRemap-v2.1.1+0/TempestRemap.v2.1.1.x86_64-linux-gnu-cxx11.tar.gz"

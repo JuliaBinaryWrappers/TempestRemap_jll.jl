@@ -1,48 +1,92 @@
 [[TempestRemap]]
 arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "219a4d5c3285a4be751ba0ea54dd714f106b8253"
-libc = "glibc"
-os = "linux"
-
-    [[TempestRemap.download]]
-    sha256 = "05d7f6a7117ccff24d9c5c94de63ff1cdf6511eb863f46906679c43f2f9a14a8"
-    url = "https://github.com/JuliaBinaryWrappers/TempestRemap_jll.jl/releases/download/TempestRemap-v2.1.6+0/TempestRemap.v2.1.6.aarch64-linux-gnu-cxx03.tar.gz"
-[[TempestRemap]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "0972720773f43a9f9ec9340282f152018327ba7f"
-libc = "glibc"
-os = "linux"
-
-    [[TempestRemap.download]]
-    sha256 = "734fed747103e3590b841730a272151c46f4bc692fea0c7a42bb2a34e1cb57a6"
-    url = "https://github.com/JuliaBinaryWrappers/TempestRemap_jll.jl/releases/download/TempestRemap-v2.1.6+0/TempestRemap.v2.1.6.aarch64-linux-gnu-cxx11.tar.gz"
-[[TempestRemap]]
-arch = "x86_64"
-git-tree-sha1 = "3b1ec7364bf12a41e906e458097807898466cc2d"
+git-tree-sha1 = "a3391a5a73004bf491bf9f164cdc8fa1eba7a81e"
 os = "macos"
 
     [[TempestRemap.download]]
-    sha256 = "8743354842aac2a4d4ac02453abd504283e53bc1bea2c17b856bff244f881b20"
-    url = "https://github.com/JuliaBinaryWrappers/TempestRemap_jll.jl/releases/download/TempestRemap-v2.1.6+0/TempestRemap.v2.1.6.x86_64-apple-darwin.tar.gz"
+    sha256 = "b001d84c638a5e898c229c3eeb0e06d1f1a867556c13349d9ab0598331283985"
+    url = "https://github.com/JuliaBinaryWrappers/TempestRemap_jll.jl/releases/download/TempestRemap-v2.1.6+1/TempestRemap.v2.1.6.aarch64-apple-darwin.tar.gz"
+[[TempestRemap]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "10582381c4a45895f09cac43c3e33e1bfd37f0a7"
+libc = "glibc"
+os = "linux"
+
+    [[TempestRemap.download]]
+    sha256 = "03d81b8a482b1aeeca567c4fdd6de35b571236776df8ceb6090405ac254eec63"
+    url = "https://github.com/JuliaBinaryWrappers/TempestRemap_jll.jl/releases/download/TempestRemap-v2.1.6+1/TempestRemap.v2.1.6.aarch64-linux-gnu-cxx03.tar.gz"
+[[TempestRemap]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5bdceb28522ecc03b948679f52a31f3dbe2fde40"
+libc = "glibc"
+os = "linux"
+
+    [[TempestRemap.download]]
+    sha256 = "d6e176069ff8816a763bfc90d18c69742322b2bb5271d2041154105b9210a54b"
+    url = "https://github.com/JuliaBinaryWrappers/TempestRemap_jll.jl/releases/download/TempestRemap-v2.1.6+1/TempestRemap.v2.1.6.aarch64-linux-gnu-cxx11.tar.gz"
+[[TempestRemap]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "335778cc4593c4e276bbc907bb69a95ceb3f74ef"
+os = "windows"
+
+    [[TempestRemap.download]]
+    sha256 = "ccf34f024be2bdb54055ab4de796439dc4a8c2bf0dd97ea31ad77a511c8816c0"
+    url = "https://github.com/JuliaBinaryWrappers/TempestRemap_jll.jl/releases/download/TempestRemap-v2.1.6+1/TempestRemap.v2.1.6.i686-w64-mingw32-cxx03.tar.gz"
+[[TempestRemap]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "37be3308e61825248f299c464aaa5949000e9d44"
+os = "windows"
+
+    [[TempestRemap.download]]
+    sha256 = "aeb23d6e3e9b5c427a60dae0dfda522bf3e1f4e964d8d29b7e33ee59a2416044"
+    url = "https://github.com/JuliaBinaryWrappers/TempestRemap_jll.jl/releases/download/TempestRemap-v2.1.6+1/TempestRemap.v2.1.6.i686-w64-mingw32-cxx11.tar.gz"
+[[TempestRemap]]
+arch = "x86_64"
+git-tree-sha1 = "0a493cfe832949f87eb01c5c995a19d281d28ce0"
+os = "macos"
+
+    [[TempestRemap.download]]
+    sha256 = "4f056f679ab4d814c4035ba30096018267b687f74f164ee79fa99faecf021c0f"
+    url = "https://github.com/JuliaBinaryWrappers/TempestRemap_jll.jl/releases/download/TempestRemap-v2.1.6+1/TempestRemap.v2.1.6.x86_64-apple-darwin.tar.gz"
 [[TempestRemap]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "42918cd58df7e4eea1450cd39b066b920215160c"
+git-tree-sha1 = "e86b18e24284cf7b58ef2ae53d9071ded26ba7e7"
 libc = "glibc"
 os = "linux"
 
     [[TempestRemap.download]]
-    sha256 = "859bc5f45ed9948eccb16fc64da2072956cc20f36640784bb3ad657594b24785"
-    url = "https://github.com/JuliaBinaryWrappers/TempestRemap_jll.jl/releases/download/TempestRemap-v2.1.6+0/TempestRemap.v2.1.6.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "00f4d92bf694e8c56b84c7b7fbe0fba74d123919b420b423a17f02284eb4640a"
+    url = "https://github.com/JuliaBinaryWrappers/TempestRemap_jll.jl/releases/download/TempestRemap-v2.1.6+1/TempestRemap.v2.1.6.x86_64-linux-gnu-cxx03.tar.gz"
 [[TempestRemap]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "2e5ad064e8289a3233f5d55752df3ffd8438eef4"
+git-tree-sha1 = "fea7ef1549e2e50e4b835ce8e0a38a0dbfc5c3a6"
 libc = "glibc"
 os = "linux"
 
     [[TempestRemap.download]]
-    sha256 = "5b599407a715d4bd5272898114cf5f19dffd374fd6bda7f447fa5261e7f4e3ec"
-    url = "https://github.com/JuliaBinaryWrappers/TempestRemap_jll.jl/releases/download/TempestRemap-v2.1.6+0/TempestRemap.v2.1.6.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "d9a84046b66aa9a11d84fc2b6ee9db4c3e3344ddd64e50115ffda24020863946"
+    url = "https://github.com/JuliaBinaryWrappers/TempestRemap_jll.jl/releases/download/TempestRemap-v2.1.6+1/TempestRemap.v2.1.6.x86_64-linux-gnu-cxx11.tar.gz"
+[[TempestRemap]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "b60c6483c57306b05750c8d1f0a8f014419c3661"
+os = "windows"
+
+    [[TempestRemap.download]]
+    sha256 = "9301f8a219e29c525174dbf1d455d61dc77b6c19e9d60fd2e29e2049691fc139"
+    url = "https://github.com/JuliaBinaryWrappers/TempestRemap_jll.jl/releases/download/TempestRemap-v2.1.6+1/TempestRemap.v2.1.6.x86_64-w64-mingw32-cxx03.tar.gz"
+[[TempestRemap]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "419237644483e6c707890a33862180b61bda3bc9"
+os = "windows"
+
+    [[TempestRemap.download]]
+    sha256 = "da531c249f666b61d65f41a08ae102bb46298aad2302b1d24eddc2bcc28f1caa"
+    url = "https://github.com/JuliaBinaryWrappers/TempestRemap_jll.jl/releases/download/TempestRemap-v2.1.6+1/TempestRemap.v2.1.6.x86_64-w64-mingw32-cxx11.tar.gz"

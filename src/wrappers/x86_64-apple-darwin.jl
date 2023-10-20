@@ -2,6 +2,7 @@
 export AnalyzeMap_exe, ApplyOfflineMap_exe, CalculateDiffNorms_exe, CoarsenRectilinearData_exe, GenerateCSMesh_exe, GenerateGLLMetaData_exe, GenerateICOMesh_exe, GenerateLambertConfConicMesh_exe, GenerateOfflineMap_exe, GenerateOverlapMesh_exe, GenerateOverlapMesh_v1_exe, GenerateRLLMesh_exe, GenerateRectilinearMeshFromFile_exe, GenerateStereographicMesh_exe, GenerateTestData_exe, GenerateTransectMesh_exe, GenerateTransposeMap_exe, GenerateUTMMesh_exe, GenerateVolumetricMesh_exe, MeshToTxt_exe, RestructureData_exe, ShpToMesh_exe, VerticalInterpolate_exe, libTempestRemap
 
 using OpenBLAS32_jll
+using HDF5_jll
 using NetCDF_jll
 JLLWrappers.@generate_wrapper_header("TempestRemap")
 JLLWrappers.@declare_library_product(libTempestRemap, "@rpath/libTempestRemap.0.dylib")
@@ -29,7 +30,7 @@ JLLWrappers.@declare_executable_product(RestructureData_exe)
 JLLWrappers.@declare_executable_product(ShpToMesh_exe)
 JLLWrappers.@declare_executable_product(VerticalInterpolate_exe)
 function __init__()
-    JLLWrappers.@generate_init_header(OpenBLAS32_jll, NetCDF_jll)
+    JLLWrappers.@generate_init_header(OpenBLAS32_jll, HDF5_jll, NetCDF_jll)
     JLLWrappers.@init_library_product(
         libTempestRemap,
         "lib/libTempestRemap.0.dylib",
